@@ -1,36 +1,36 @@
 <?php
 
 
- function autoload_9649de62215869d75932448ce9d41320($class)
+ function autoload_375a8cd3edc4fff2bf2d0d967502d977($class)
 {
     $classes = array(
-        'UkMail\Test\SecurityModel\UKMAuthenticationServiceCustom' => __DIR__ .'/UKMAuthenticationServiceCustom.php',
-        'UkMail\Test\SecurityModel\UKMResultStateCustom' => __DIR__ .'/UKMResultStateCustom.php',
-        'UkMail\Test\SecurityModel\LoginWebRequestCustom' => __DIR__ .'/LoginWebRequestCustom.php',
-        'UkMail\Test\SecurityModel\UKMLoginResponseCustom' => __DIR__ .'/UKMLoginResponseCustom.php',
-        'UkMail\Test\SecurityModel\UKMWebResponseCustom' => __DIR__ .'/UKMWebResponseCustom.php',
-        'UkMail\Test\SecurityModel\ArrayOfUKMWebErrorCustom' => __DIR__ .'/ArrayOfUKMWebErrorCustom.php',
-        'UkMail\Test\SecurityModel\UKMWebErrorCustom' => __DIR__ .'/UKMWebErrorCustom.php',
-        'UkMail\Test\SecurityModel\ArrayOfUKMWebWarningCustom' => __DIR__ .'/ArrayOfUKMWebWarningCustom.php',
-        'UkMail\Test\SecurityModel\UKMWebWarningCustom' => __DIR__ .'/UKMWebWarningCustom.php',
-        'UkMail\Test\SecurityModel\ArrayOfAccountWebModelCustom' => __DIR__ .'/ArrayOfAccountWebModelCustom.php',
-        'UkMail\Test\SecurityModel\AccountWebModelCustom' => __DIR__ .'/AccountWebModelCustom.php',
-        'UkMail\Test\SecurityModel\AccountStatusEnumCustom' => __DIR__ .'/AccountStatusEnumCustom.php',
-        'UkMail\Test\SecurityModel\AccountTypeEnumCustom' => __DIR__ .'/AccountTypeEnumCustom.php',
-        'UkMail\Test\SecurityModel\RegionEnumCustom' => __DIR__ .'/RegionEnumCustom.php',
-        'UkMail\Test\SecurityModel\WebRequestCustom' => __DIR__ .'/WebRequestCustom.php',
-        'UkMail\Test\SecurityModel\UKMLogoutResponseCustom' => __DIR__ .'/UKMLogoutResponseCustom.php',
-        'UkMail\Test\SecurityModel\LoginCustom' => __DIR__ .'/LoginCustom.php',
-        'UkMail\Test\SecurityModel\LoginResponseCustom' => __DIR__ .'/LoginResponseCustom.php',
-        'UkMail\Test\SecurityModel\LogoutCustom' => __DIR__ .'/LogoutCustom.php',
-        'UkMail\Test\SecurityModel\LogoutResponseCustom' => __DIR__ .'/LogoutResponseCustom.php'
+        'UkMail\Test\SecurityModel\UKMAuthenticationServiceCustom2' => __DIR__ .'/UKMAuthenticationServiceCustom2.php',
+        'UkMail\Test\SecurityModel\UKMResultState' => __DIR__ .'/UKMResultState.php',
+        'UkMail\Test\SecurityModel\LoginWebRequestCustom2' => __DIR__ .'/LoginWebRequestCustom2.php',
+        'UkMail\Test\SecurityModel\UKMLoginResponse' => __DIR__ .'/UKMLoginResponse.php',
+        'UkMail\Test\SecurityModel\UKMWebResponse' => __DIR__ .'/UKMWebResponse.php',
+        'UkMail\Test\SecurityModel\ArrayOfUKMWebError' => __DIR__ .'/ArrayOfUKMWebError.php',
+        'UkMail\Test\SecurityModel\UKMWebError' => __DIR__ .'/UKMWebError.php',
+        'UkMail\Test\SecurityModel\ArrayOfUKMWebWarning' => __DIR__ .'/ArrayOfUKMWebWarning.php',
+        'UkMail\Test\SecurityModel\UKMWebWarning' => __DIR__ .'/UKMWebWarning.php',
+        'UkMail\Test\SecurityModel\ArrayOfAccountWebModel' => __DIR__ .'/ArrayOfAccountWebModel.php',
+        'UkMail\Test\SecurityModel\AccountWebModel' => __DIR__ .'/AccountWebModel.php',
+        'UkMail\Test\SecurityModel\AccountStatusEnum' => __DIR__ .'/AccountStatusEnum.php',
+        'UkMail\Test\SecurityModel\AccountTypeEnum' => __DIR__ .'/AccountTypeEnum.php',
+        'UkMail\Test\SecurityModel\RegionEnum' => __DIR__ .'/RegionEnum.php',
+        'UkMail\Test\SecurityModel\WebRequest' => __DIR__ .'/WebRequest.php',
+        'UkMail\Test\SecurityModel\UKMLogoutResponse' => __DIR__ .'/UKMLogoutResponse.php',
+        'UkMail\Test\SecurityModel\LoginCustom2' => __DIR__ .'/LoginCustom2.php',
+        'UkMail\Test\SecurityModel\LoginResponse' => __DIR__ .'/LoginResponse.php',
+        'UkMail\Test\SecurityModel\Logout' => __DIR__ .'/Logout.php',
+        'UkMail\Test\SecurityModel\LogoutResponse' => __DIR__ .'/LogoutResponse.php'
     );
     if (!empty($classes[$class])) {
         include $classes[$class];
     };
 }
 
-spl_autoload_register('autoload_9649de62215869d75932448ce9d41320');
+spl_autoload_register('autoload_375a8cd3edc4fff2bf2d0d967502d977');
 
 // Do nothing. The rest is just leftovers from the code generation.
 {
