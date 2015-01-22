@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class AccountWebModel
 {
@@ -82,7 +82,7 @@ class AccountWebModel
 
     /**
      * @param string $AccountNumber
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setAccountNumber($AccountNumber)
     {
@@ -100,7 +100,7 @@ class AccountWebModel
 
     /**
      * @param AccountStatusEnum $AccountStatus
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setAccountStatus($AccountStatus)
     {
@@ -118,7 +118,7 @@ class AccountWebModel
 
     /**
      * @param AccountTypeEnum $AccountType
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setAccountType($AccountType)
     {
@@ -136,7 +136,7 @@ class AccountWebModel
 
     /**
      * @param string $AlternativeRefAlias
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setAlternativeRefAlias($AlternativeRefAlias)
     {
@@ -154,7 +154,7 @@ class AccountWebModel
 
     /**
      * @param string $CompanyName
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setCompanyName($CompanyName)
     {
@@ -172,7 +172,7 @@ class AccountWebModel
 
     /**
      * @param string $ContactNumber
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setContactNumber($ContactNumber)
     {
@@ -190,7 +190,7 @@ class AccountWebModel
 
     /**
      * @param string $CustomerRefAlias
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setCustomerRefAlias($CustomerRefAlias)
     {
@@ -208,7 +208,7 @@ class AccountWebModel
 
     /**
      * @param string $Postcode
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setPostcode($Postcode)
     {
@@ -226,7 +226,7 @@ class AccountWebModel
 
     /**
      * @param RegionEnum $Region
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setRegion($Region)
     {
@@ -244,7 +244,7 @@ class AccountWebModel
 
     /**
      * @param string $TradingAddress
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setTradingAddress($TradingAddress)
     {
@@ -262,7 +262,7 @@ class AccountWebModel
 
     /**
      * @param string $VATNumber
-     * @return \UkMail/Test/SecurityModel\AccountWebModel
+     * @return \UkMail\Test\SecurityModel\AccountWebModel
      */
     public function setVATNumber($VATNumber)
     {

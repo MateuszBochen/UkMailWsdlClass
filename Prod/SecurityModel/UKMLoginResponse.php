@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Prod/SecurityModel;
+namespace UkMail\Prod\SecurityModel;
 
 class UKMLoginResponse extends UKMWebResponse
 {
@@ -33,7 +33,7 @@ class UKMLoginResponse extends UKMWebResponse
 
     /**
      * @param ArrayOfAccountWebModel $Accounts
-     * @return \UkMail/Prod/SecurityModel\UKMLoginResponse
+     * @return \UkMail\Prod\SecurityModel\UKMLoginResponse
      */
     public function setAccounts($Accounts)
     {
@@ -51,7 +51,7 @@ class UKMLoginResponse extends UKMWebResponse
 
     /**
      * @param string $AuthenticationToken
-     * @return \UkMail/Prod/SecurityModel\UKMLoginResponse
+     * @return \UkMail\Prod\SecurityModel\UKMLoginResponse
      */
     public function setAuthenticationToken($AuthenticationToken)
     {

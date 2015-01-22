@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class ArrayOfUKMWebWarning
 {
@@ -26,7 +26,7 @@ class ArrayOfUKMWebWarning
 
     /**
      * @param UKMWebWarning[] $UKMWebWarning
-     * @return \UkMail/Test/SecurityModel\ArrayOfUKMWebWarning
+     * @return \UkMail\Test\SecurityModel\ArrayOfUKMWebWarning
      */
     public function setUKMWebWarning(array $UKMWebWarning)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Prod/SecurityModel;
+namespace UkMail\Prod\SecurityModel;
 
 class LogoutResponse
 {
@@ -28,7 +28,7 @@ class LogoutResponse
 
     /**
      * @param UKMLogoutResponse $LogoutResult
-     * @return \UkMail/Prod/SecurityModel\LogoutResponse
+     * @return \UkMail\Prod\SecurityModel\LogoutResponse
      */
     public function setLogoutResult($LogoutResult)
     {

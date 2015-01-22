@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class LoginResponse
 {
@@ -28,7 +28,7 @@ class LoginResponse
 
     /**
      * @param UKMLoginResponse $LoginResult
-     * @return \UkMail/Test/SecurityModel\LoginResponse
+     * @return \UkMail\Test\SecurityModel\LoginResponse
      */
     public function setLoginResult($LoginResult)
     {

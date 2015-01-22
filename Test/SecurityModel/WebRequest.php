@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class WebRequest
 {
@@ -31,7 +31,7 @@ class WebRequest
 
     /**
      * @param string $AuthenticationToken
-     * @return \UkMail/Test/SecurityModel\WebRequest
+     * @return \UkMail\Test\SecurityModel\WebRequest
      */
     public function setAuthenticationToken($AuthenticationToken)
     {
@@ -49,7 +49,7 @@ class WebRequest
 
     /**
      * @param string $Username
-     * @return \UkMail/Test/SecurityModel\WebRequest
+     * @return \UkMail\Test\SecurityModel\WebRequest
      */
     public function setUsername($Username)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class LoginWebRequest
 {
@@ -31,7 +31,7 @@ class LoginWebRequest
 
     /**
      * @param string $Password
-     * @return \UkMail/Test/SecurityModel\LoginWebRequest
+     * @return \UkMail\Test\SecurityModel\LoginWebRequest
      */
     public function setPassword($Password)
     {
@@ -49,7 +49,7 @@ class LoginWebRequest
 
     /**
      * @param string $Username
-     * @return \UkMail/Test/SecurityModel\LoginWebRequest
+     * @return \UkMail\Test\SecurityModel\LoginWebRequest
      */
     public function setUsername($Username)
     {

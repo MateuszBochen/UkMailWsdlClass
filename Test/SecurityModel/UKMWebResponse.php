@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class UKMWebResponse
 {
@@ -38,7 +38,7 @@ class UKMWebResponse
 
     /**
      * @param ArrayOfUKMWebError $Errors
-     * @return \UkMail/Test/SecurityModel\UKMWebResponse
+     * @return \UkMail\Test\SecurityModel\UKMWebResponse
      */
     public function setErrors($Errors)
     {
@@ -56,7 +56,7 @@ class UKMWebResponse
 
     /**
      * @param UKMResultState $Result
-     * @return \UkMail/Test/SecurityModel\UKMWebResponse
+     * @return \UkMail\Test\SecurityModel\UKMWebResponse
      */
     public function setResult($Result)
     {
@@ -74,7 +74,7 @@ class UKMWebResponse
 
     /**
      * @param ArrayOfUKMWebWarning $Warnings
-     * @return \UkMail/Test/SecurityModel\UKMWebResponse
+     * @return \UkMail\Test\SecurityModel\UKMWebResponse
      */
     public function setWarnings($Warnings)
     {

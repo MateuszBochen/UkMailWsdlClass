@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class UKMAuthenticationService extends \SoapClient
 {
@@ -9,21 +9,21 @@ class UKMAuthenticationService extends \SoapClient
      * @var array $classmap The defined classes
      */
     private static $classmap = array (
-      'LoginWebRequest' => 'UkMail/Test/SecurityModel\\LoginWebRequest',
-      'UKMLoginResponse' => 'UkMail/Test/SecurityModel\\UKMLoginResponse',
-      'UKMWebResponse' => 'UkMail/Test/SecurityModel\\UKMWebResponse',
-      'ArrayOfUKMWebError' => 'UkMail/Test/SecurityModel\\ArrayOfUKMWebError',
-      'UKMWebError' => 'UkMail/Test/SecurityModel\\UKMWebError',
-      'ArrayOfUKMWebWarning' => 'UkMail/Test/SecurityModel\\ArrayOfUKMWebWarning',
-      'UKMWebWarning' => 'UkMail/Test/SecurityModel\\UKMWebWarning',
-      'ArrayOfAccountWebModel' => 'UkMail/Test/SecurityModel\\ArrayOfAccountWebModel',
-      'AccountWebModel' => 'UkMail/Test/SecurityModel\\AccountWebModel',
-      'WebRequest' => 'UkMail/Test/SecurityModel\\WebRequest',
-      'UKMLogoutResponse' => 'UkMail/Test/SecurityModel\\UKMLogoutResponse',
-      'Login' => 'UkMail/Test/SecurityModel\\Login',
-      'LoginResponse' => 'UkMail/Test/SecurityModel\\LoginResponse',
-      'Logout' => 'UkMail/Test/SecurityModel\\Logout',
-      'LogoutResponse' => 'UkMail/Test/SecurityModel\\LogoutResponse',
+      'LoginWebRequest' => 'UkMail\\Test\\SecurityModel\\LoginWebRequest',
+      'UKMLoginResponse' => 'UkMail\\Test\\SecurityModel\\UKMLoginResponse',
+      'UKMWebResponse' => 'UkMail\\Test\\SecurityModel\\UKMWebResponse',
+      'ArrayOfUKMWebError' => 'UkMail\\Test\\SecurityModel\\ArrayOfUKMWebError',
+      'UKMWebError' => 'UkMail\\Test\\SecurityModel\\UKMWebError',
+      'ArrayOfUKMWebWarning' => 'UkMail\\Test\\SecurityModel\\ArrayOfUKMWebWarning',
+      'UKMWebWarning' => 'UkMail\\Test\\SecurityModel\\UKMWebWarning',
+      'ArrayOfAccountWebModel' => 'UkMail\\Test\\SecurityModel\\ArrayOfAccountWebModel',
+      'AccountWebModel' => 'UkMail\\Test\\SecurityModel\\AccountWebModel',
+      'WebRequest' => 'UkMail\\Test\\SecurityModel\\WebRequest',
+      'UKMLogoutResponse' => 'UkMail\\Test\\SecurityModel\\UKMLogoutResponse',
+      'Login' => 'UkMail\\Test\\SecurityModel\\Login',
+      'LoginResponse' => 'UkMail\\Test\\SecurityModel\\LoginResponse',
+      'Logout' => 'UkMail\\Test\\SecurityModel\\Logout',
+      'LogoutResponse' => 'UkMail\\Test\\SecurityModel\\LogoutResponse',
     );
 
     /**
@@ -42,9 +42,5 @@ class UKMAuthenticationService extends \SoapClient
     ), $options);
       parent::__construct($wsdl, $options);
     }
-   
-    public function login(Login $login)
-    {
-      return $this->__soapCall('Login', array($login));
-    }
+
 }

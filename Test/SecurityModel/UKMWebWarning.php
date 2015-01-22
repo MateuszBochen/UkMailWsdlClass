@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class UKMWebWarning
 {
@@ -33,7 +33,7 @@ class UKMWebWarning
 
     /**
      * @param int $Code
-     * @return \UkMail/Test/SecurityModel\UKMWebWarning
+     * @return \UkMail\Test\SecurityModel\UKMWebWarning
      */
     public function setCode($Code)
     {
@@ -51,7 +51,7 @@ class UKMWebWarning
 
     /**
      * @param string $Description
-     * @return \UkMail/Test/SecurityModel\UKMWebWarning
+     * @return \UkMail\Test\SecurityModel\UKMWebWarning
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Prod/SecurityModel;
+namespace UkMail\Prod\SecurityModel;
 
 class UKMAuthenticationService extends \SoapClient
 {
@@ -9,21 +9,21 @@ class UKMAuthenticationService extends \SoapClient
      * @var array $classmap The defined classes
      */
     private static $classmap = array (
-      'LoginWebRequest' => 'UkMail/Prod/SecurityModel\\LoginWebRequest',
-      'UKMLoginResponse' => 'UkMail/Prod/SecurityModel\\UKMLoginResponse',
-      'UKMWebResponse' => 'UkMail/Prod/SecurityModel\\UKMWebResponse',
-      'ArrayOfUKMWebError' => 'UkMail/Prod/SecurityModel\\ArrayOfUKMWebError',
-      'UKMWebError' => 'UkMail/Prod/SecurityModel\\UKMWebError',
-      'ArrayOfUKMWebWarning' => 'UkMail/Prod/SecurityModel\\ArrayOfUKMWebWarning',
-      'UKMWebWarning' => 'UkMail/Prod/SecurityModel\\UKMWebWarning',
-      'ArrayOfAccountWebModel' => 'UkMail/Prod/SecurityModel\\ArrayOfAccountWebModel',
-      'AccountWebModel' => 'UkMail/Prod/SecurityModel\\AccountWebModel',
-      'WebRequest' => 'UkMail/Prod/SecurityModel\\WebRequest',
-      'UKMLogoutResponse' => 'UkMail/Prod/SecurityModel\\UKMLogoutResponse',
-      'Login' => 'UkMail/Prod/SecurityModel\\Login',
-      'LoginResponse' => 'UkMail/Prod/SecurityModel\\LoginResponse',
-      'Logout' => 'UkMail/Prod/SecurityModel\\Logout',
-      'LogoutResponse' => 'UkMail/Prod/SecurityModel\\LogoutResponse',
+      'LoginWebRequest' => 'UkMail\\Prod\\SecurityModel\\LoginWebRequest',
+      'UKMLoginResponse' => 'UkMail\\Prod\\SecurityModel\\UKMLoginResponse',
+      'UKMWebResponse' => 'UkMail\\Prod\\SecurityModel\\UKMWebResponse',
+      'ArrayOfUKMWebError' => 'UkMail\\Prod\\SecurityModel\\ArrayOfUKMWebError',
+      'UKMWebError' => 'UkMail\\Prod\\SecurityModel\\UKMWebError',
+      'ArrayOfUKMWebWarning' => 'UkMail\\Prod\\SecurityModel\\ArrayOfUKMWebWarning',
+      'UKMWebWarning' => 'UkMail\\Prod\\SecurityModel\\UKMWebWarning',
+      'ArrayOfAccountWebModel' => 'UkMail\\Prod\\SecurityModel\\ArrayOfAccountWebModel',
+      'AccountWebModel' => 'UkMail\\Prod\\SecurityModel\\AccountWebModel',
+      'WebRequest' => 'UkMail\\Prod\\SecurityModel\\WebRequest',
+      'UKMLogoutResponse' => 'UkMail\\Prod\\SecurityModel\\UKMLogoutResponse',
+      'Login' => 'UkMail\\Prod\\SecurityModel\\Login',
+      'LoginResponse' => 'UkMail\\Prod\\SecurityModel\\LoginResponse',
+      'Logout' => 'UkMail\\Prod\\SecurityModel\\Logout',
+      'LogoutResponse' => 'UkMail\\Prod\\SecurityModel\\LogoutResponse',
     );
 
     /**

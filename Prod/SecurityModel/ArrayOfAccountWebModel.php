@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Prod/SecurityModel;
+namespace UkMail\Prod\SecurityModel;
 
 class ArrayOfAccountWebModel
 {
@@ -26,7 +26,7 @@ class ArrayOfAccountWebModel
 
     /**
      * @param AccountWebModel[] $AccountWebModel
-     * @return \UkMail/Prod/SecurityModel\ArrayOfAccountWebModel
+     * @return \UkMail\Prod\SecurityModel\ArrayOfAccountWebModel
      */
     public function setAccountWebModel(array $AccountWebModel)
     {

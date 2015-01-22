@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Prod/SecurityModel;
+namespace UkMail\Prod\SecurityModel;
 
 class Logout
 {
@@ -28,7 +28,7 @@ class Logout
 
     /**
      * @param WebRequest $webRequest
-     * @return \UkMail/Prod/SecurityModel\Logout
+     * @return \UkMail\Prod\SecurityModel\Logout
      */
     public function setWebRequest($webRequest)
     {

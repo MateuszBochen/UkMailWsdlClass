@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class ArrayOfUKMWebError
 {
@@ -26,7 +26,7 @@ class ArrayOfUKMWebError
 
     /**
      * @param UKMWebError[] $UKMWebError
-     * @return \UkMail/Test/SecurityModel\ArrayOfUKMWebError
+     * @return \UkMail\Test\SecurityModel\ArrayOfUKMWebError
      */
     public function setUKMWebError(array $UKMWebError)
     {

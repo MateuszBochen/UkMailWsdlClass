@@ -1,6 +1,6 @@
 <?php
 
-namespace UkMail/Test/SecurityModel;
+namespace UkMail\Test\SecurityModel;
 
 class Login
 {
@@ -28,7 +28,7 @@ class Login
 
     /**
      * @param LoginWebRequest $loginWebRequest
-     * @return \UkMail/Test/SecurityModel\Login
+     * @return \UkMail\Test\SecurityModel\Login
      */
     public function setLoginWebRequest($loginWebRequest)
     {
