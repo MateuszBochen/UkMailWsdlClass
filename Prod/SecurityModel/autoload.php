@@ -1,36 +1,36 @@
 <?php
 
 
- function autoload_e2202730cafbe1a05ccee4fdbd6df339($class)
+ function autoload_73dcdbf36e65468f0cec530ba630b470($class)
 {
     $classes = array(
-        'UkMail\Prod\SecurityModel\UKMAuthenticationService' => __DIR__ .'/UKMAuthenticationService.php',
-        'UkMail\Prod\SecurityModel\UKMResultState' => __DIR__ .'/UKMResultState.php',
-        'UkMail\Prod\SecurityModel\LoginWebRequest' => __DIR__ .'/LoginWebRequest.php',
-        'UkMail\Prod\SecurityModel\UKMLoginResponse' => __DIR__ .'/UKMLoginResponse.php',
-        'UkMail\Prod\SecurityModel\UKMWebResponse' => __DIR__ .'/UKMWebResponse.php',
-        'UkMail\Prod\SecurityModel\ArrayOfUKMWebError' => __DIR__ .'/ArrayOfUKMWebError.php',
-        'UkMail\Prod\SecurityModel\UKMWebError' => __DIR__ .'/UKMWebError.php',
-        'UkMail\Prod\SecurityModel\ArrayOfUKMWebWarning' => __DIR__ .'/ArrayOfUKMWebWarning.php',
-        'UkMail\Prod\SecurityModel\UKMWebWarning' => __DIR__ .'/UKMWebWarning.php',
-        'UkMail\Prod\SecurityModel\ArrayOfAccountWebModel' => __DIR__ .'/ArrayOfAccountWebModel.php',
-        'UkMail\Prod\SecurityModel\AccountWebModel' => __DIR__ .'/AccountWebModel.php',
-        'UkMail\Prod\SecurityModel\AccountStatusEnum' => __DIR__ .'/AccountStatusEnum.php',
-        'UkMail\Prod\SecurityModel\AccountTypeEnum' => __DIR__ .'/AccountTypeEnum.php',
-        'UkMail\Prod\SecurityModel\RegionEnum' => __DIR__ .'/RegionEnum.php',
-        'UkMail\Prod\SecurityModel\WebRequest' => __DIR__ .'/WebRequest.php',
-        'UkMail\Prod\SecurityModel\UKMLogoutResponse' => __DIR__ .'/UKMLogoutResponse.php',
-        'UkMail\Prod\SecurityModel\Login' => __DIR__ .'/Login.php',
-        'UkMail\Prod\SecurityModel\LoginResponse' => __DIR__ .'/LoginResponse.php',
-        'UkMail\Prod\SecurityModel\Logout' => __DIR__ .'/Logout.php',
-        'UkMail\Prod\SecurityModel\LogoutResponse' => __DIR__ .'/LogoutResponse.php'
+        'UkMail\Prod\SecurityModel\UKMAuthenticationServiceCustom' => __DIR__ .'/UKMAuthenticationServiceCustom.php',
+        'UkMail\Prod\SecurityModel\UKMResultStateCustom' => __DIR__ .'/UKMResultStateCustom.php',
+        'UkMail\Prod\SecurityModel\LoginWebRequestCustom' => __DIR__ .'/LoginWebRequestCustom.php',
+        'UkMail\Prod\SecurityModel\UKMLoginResponseCustom' => __DIR__ .'/UKMLoginResponseCustom.php',
+        'UkMail\Prod\SecurityModel\UKMWebResponseCustom' => __DIR__ .'/UKMWebResponseCustom.php',
+        'UkMail\Prod\SecurityModel\ArrayOfUKMWebErrorCustom' => __DIR__ .'/ArrayOfUKMWebErrorCustom.php',
+        'UkMail\Prod\SecurityModel\UKMWebErrorCustom' => __DIR__ .'/UKMWebErrorCustom.php',
+        'UkMail\Prod\SecurityModel\ArrayOfUKMWebWarningCustom' => __DIR__ .'/ArrayOfUKMWebWarningCustom.php',
+        'UkMail\Prod\SecurityModel\UKMWebWarningCustom' => __DIR__ .'/UKMWebWarningCustom.php',
+        'UkMail\Prod\SecurityModel\ArrayOfAccountWebModelCustom' => __DIR__ .'/ArrayOfAccountWebModelCustom.php',
+        'UkMail\Prod\SecurityModel\AccountWebModelCustom' => __DIR__ .'/AccountWebModelCustom.php',
+        'UkMail\Prod\SecurityModel\AccountStatusEnumCustom' => __DIR__ .'/AccountStatusEnumCustom.php',
+        'UkMail\Prod\SecurityModel\AccountTypeEnumCustom' => __DIR__ .'/AccountTypeEnumCustom.php',
+        'UkMail\Prod\SecurityModel\RegionEnumCustom' => __DIR__ .'/RegionEnumCustom.php',
+        'UkMail\Prod\SecurityModel\WebRequestCustom' => __DIR__ .'/WebRequestCustom.php',
+        'UkMail\Prod\SecurityModel\UKMLogoutResponseCustom' => __DIR__ .'/UKMLogoutResponseCustom.php',
+        'UkMail\Prod\SecurityModel\LoginCustom' => __DIR__ .'/LoginCustom.php',
+        'UkMail\Prod\SecurityModel\LoginResponseCustom' => __DIR__ .'/LoginResponseCustom.php',
+        'UkMail\Prod\SecurityModel\LogoutCustom' => __DIR__ .'/LogoutCustom.php',
+        'UkMail\Prod\SecurityModel\LogoutResponseCustom' => __DIR__ .'/LogoutResponseCustom.php'
     );
     if (!empty($classes[$class])) {
         include $classes[$class];
     };
 }
 
-spl_autoload_register('autoload_e2202730cafbe1a05ccee4fdbd6df339');
+spl_autoload_register('autoload_73dcdbf36e65468f0cec530ba630b470');
 
 // Do nothing. The rest is just leftovers from the code generation.
 {

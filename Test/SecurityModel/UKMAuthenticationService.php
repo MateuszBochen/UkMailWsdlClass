@@ -43,4 +43,7 @@ class UKMAuthenticationService extends \SoapClient
       parent::__construct($wsdl, $options);
     }
 
+    public function login(Login $login){
+        return $this->__soapCall('Login', array($login));
+    }
 }
