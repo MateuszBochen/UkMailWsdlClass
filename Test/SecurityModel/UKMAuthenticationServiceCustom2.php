@@ -44,7 +44,7 @@ class UKMAuthenticationServiceCustom2 extends \SoapClient
     }
 
 
-    public function login(Login $login){
+    public function login(LoginCustom2 $login){
         return $this->__soapCall('Login', array($login));
     }
 
