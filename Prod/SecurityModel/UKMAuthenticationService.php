@@ -47,4 +47,8 @@ class UKMAuthenticationService extends \SoapClient
         return $this->__soapCall('Login', array($login));
     }
 
+    public function logout(Logout $logout){
+        return $this->__soapCall('Logout', array($logout));
+    }
+
 }
