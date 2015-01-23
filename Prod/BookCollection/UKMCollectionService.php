@@ -38,4 +38,9 @@ class UKMCollectionService extends \SoapClient
       parent::__construct($wsdl, $options);
     }
 
+    public function bookCollection(BookCollection $parameters)
+    {
+      return $this->__soapCall('BookCollection', array($parameters));
+    }
+
 }
